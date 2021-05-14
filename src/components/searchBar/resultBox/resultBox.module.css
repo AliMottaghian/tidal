@@ -1,0 +1,39 @@
+.resultBox {
+  background: var(--light-black);
+  position: absolute;
+  width: 100%;
+  top: 15px;
+  border-radius: var(--radius);
+  padding: 20px;
+  z-index: 2;
+}
+.resultBox:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid var(--light-black);
+  position: absolute;
+  top: -10px;
+  left: 35px;
+}
+.resultBox p {
+  color: var(--dark-gray);
+}
+.resultBox div {
+  overflow-y: auto;
+  max-height: 300px;
+}
+.resultBox ul li {
+  border-bottom: 1px solid var(--black);
+  padding: 5px 0;
+  cursor: pointer;
+}
+.resultBox ul li:hover {
+  color: var(--gray);
+}
+
+.resultBox ul li:last-child {
+  border: none !important;
+}

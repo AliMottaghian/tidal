@@ -1,0 +1,24 @@
+.popup {
+  background: var(--black);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 12;
+  padding: 3em;
+}
+.close {
+  font-size: 25px;
+  color: var(--white);
+  cursor: pointer;
+}
+.result {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.result figure{
+    cursor: pointer;
+}

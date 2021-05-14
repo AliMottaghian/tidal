@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should render Table component without crashing 1`] = `
+<table
+  className="table"
+>
+  <thead>
+    <tr>
+      <th
+        className="emptyHeader"
+      />
+      <th>
+        #
+      </th>
+      <th
+        width="30%"
+      >
+        Title
+      </th>
+      <th>
+        Artist
+      </th>
+      <th>
+        Time
+      </th>
+      <th>
+        Released
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="0"
+    >
+      <td />
+      <td>
+        1
+      </td>
+      <td>
+        test1
+      </td>
+      <td>
+        artist name1
+      </td>
+      <td>
+        05:00
+      </td>
+      <td />
+    </tr>
+    <tr
+      key="1"
+    >
+      <td />
+      <td>
+        2
+      </td>
+      <td>
+        test2
+      </td>
+      <td>
+        artist name2
+      </td>
+      <td>
+        08:20
+      </td>
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;

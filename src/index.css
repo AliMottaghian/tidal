@@ -1,0 +1,110 @@
+:root {
+  --black: #1c1c1c;
+  --light-black: #2a2a2a;
+  --white: #fff;
+  --gray: #f2f2f2;
+  --dark-gray: #8a8a8a;
+  --cyan: #01ffff;
+  --radius: 4px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--black) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+p {
+  color: var(--gray);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white) !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--dark-gray);
+  border-radius: 10px;
+}
+#root {
+  max-width: 1300px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.ant-input {
+  background-color: var(--light-black) !important;
+  border-radius: var(--radius) !important;
+  border: none !important;
+  padding: 10px !important;
+  color: var(--gray) !important;
+}
+.ant-btn-primary {
+  background-color: var(--cyan) !important;
+  border-radius: var(--radius) !important;
+  color: var(--light-black) !important;
+  border: none !important;
+  height: 40px !important;
+  padding: 0 20px !important;
+}
+.ant-input-affix-wrapper {
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+.ant-input-suffix {
+  margin-left: 4px;
+  position: absolute;
+  right: 10px;
+  height: 100%;
+}
+.ant-input-suffix span {
+  color: var(--dark-gray) !important;
+}
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev {
+  top: 40% !important;
+}
+.ant-carousel .slick-next::before,
+.ant-carousel .slick-prev::before {
+  font-size: 20px;
+  color: var(--white);
+}
+.ant-result-title,
+.ant-result-subtitle {
+  color: var(--white) !important;
+}
+.textCenter {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+.cyanColor {
+  color: var(--cyan) !important;
+}
+ul {
+  padding-left: 10px !important;
+}
+li {
+  list-style: none;
+  color: var(--dark-gray);
+}

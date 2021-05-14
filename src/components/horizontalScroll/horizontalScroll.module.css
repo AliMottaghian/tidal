@@ -1,0 +1,15 @@
+.listItem {
+  padding: 5px;
+}
+.selected {
+  border-bottom: 1px solid var(--light-black);
+}
+.listItem figure {
+  cursor: pointer;
+}
+.listItem figure img {
+  width: 100% !important;
+}
+.listItem figure p {
+  color: var(--cyan);
+}
